@@ -98,18 +98,6 @@ class SettingsActivity : AppCompatActivity() {
             startActivityForResult(intent, 100)
         }
 
-        val switchDarkMode = findViewById<SwitchMaterial>(R.id.switchDarkMode)
-        switchDarkMode.isChecked = isDarkMode
-
-        switchDarkMode.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-                sharedPreferences.edit().putBoolean("DarkMode", true).apply()
-            } else {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-                sharedPreferences.edit().putBoolean("DarkMode", false).apply()
-            }
-        }
 
         // Navigation
         findViewById<TextView>(R.id.budgetButton).setOnClickListener {
