@@ -14,9 +14,12 @@ I wanted a **clean, intuitive, and fun way** to track income and expenses. No mo
 - **Categories for Income & Expenses**: Includes all standard categories.
 - **Dashboard & Analytics**: Break down expenses and income by category with visual insights.
 
-## ** 2 features we added
+## ** Features we added
 - **Password Reset**: A user is able to change their password
 - **Auto Session Timeout**: The app will automatically timeout after 30 minutes
+## Screenshots
+
+
 
 
 ## **🛠 Tech Stack**
@@ -40,4 +43,5 @@ ST10267684 – Lindelani Ngubeni
 
 ## Youtube Video
 https://youtu.be/pgFfBECb0jE 
+
 
